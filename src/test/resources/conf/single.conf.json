@@ -1,0 +1,21 @@
+{
+  "server": "hub-cloud.browserstack.com",
+  "user": "BROWSERSTACK_USERNAME",
+  "key": "BROWSERSTACK_ACCESS_KEY",
+
+  "capabilities": {
+    "build": "gmail-testng-browserstack",
+    "name": "gmail-single_appium_test",
+    "browserstack.debug": true,
+    "app": "<your_app_url>",
+    "browserstack.maskSendKeys": "true"
+  },
+
+  "environments": {
+    "galaxy_s7": {
+      "device": "Google Pixel",
+      "os_version": "7.1",
+      "real_mobile": "true"
+    }
+  }
+}
